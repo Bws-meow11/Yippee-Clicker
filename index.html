@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yippee Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Yippee Clicker</h1>
+        <div class="points-container">
+            <h2>Yippee Points: <span id="points">0</span></h2>
+        </div>
+        
+        <button id="clickButton" class="click-button">Click for Yippee!</button>
+        
+        <div class="upgrades">
+            <h3>Upgrades</h3>
+            
+            <!-- Upgrade Button to Increase Points per Click -->
+            <div class="upgrade">
+                <button id="upgradeButton" class="upgrade-button">Upgrade Click (+1 Yippee per click) - Cost: <span id="upgradeCost">10</span> Points</button>
+            </div>
+            
+            <!-- Autoclicker Button -->
+            <div class="autoclicker">
+                <button id="autoclickerButton" class="upgrade-button">Buy Autoclicker (+1 Yippee per second) - Cost: <span id="autoclickerCost">50</span> Points</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
