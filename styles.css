@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6347;
+}
+
+.points-container h2 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.click-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.click-button:hover {
+    background-color: #ff4500;
+}
+
+.upgrades h3 {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #32cd32;
+}
+
+.upgrade {
+    margin-top: 10px;
+}
+
+.upgrade-button {
+    background-color: #32cd32;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upgrade-button:hover {
+    background-color: #228b22;
+}
+
+.autoclicker {
+    margin-top: 20px;
+}
